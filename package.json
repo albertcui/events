@@ -6,6 +6,7 @@
     "dependencies": {
         "twit": "*",
         "cartodb": "*",
-        "express": "*"
+        "express": "*",
+        "jade": "*"
     }
 }
