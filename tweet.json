@@ -1,0 +1,141 @@
+{
+          "created_at": "Sat Dec 13 20:00:54 +0000 2014",
+          "id": 543858120041443300,
+          "id_str": "543858120041443329",
+          "text": "#CosplayNYC in #BryantPark @ Bryant Park http://t.co/x74fht8lxx",
+          "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+          "truncated": false,
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+                    "id": 2518787191,
+                    "id_str": "2518787191",
+                    "name": "Marshall Lee",
+                    "screen_name": "Marshall_Lee19",
+                    "location": "NYC",
+                    "url": null,
+                    "description": null,
+                    "protected": false,
+                    "verified": false,
+                    "followers_count": 391,
+                    "friends_count": 1184,
+                    "listed_count": 1,
+                    "favourites_count": 115,
+                    "statuses_count": 904,
+                    "created_at": "Fri May 23 21:55:40 +0000 2014",
+                    "utc_offset": -14400,
+                    "time_zone": "Atlantic Time (Canada)",
+                    "geo_enabled": true,
+                    "lang": "en",
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "profile_background_color": "C0DEED",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_link_color": "0084B4",
+                    "profile_sidebar_border_color": "C0DEED",
+                    "profile_sidebar_fill_color": "DDEEF6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/537784818227224577/JfTJYeM5_normal.jpeg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/537784818227224577/JfTJYeM5_normal.jpeg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/2518787191/1417052865",
+                    "default_profile": true,
+                    "default_profile_image": false,
+                    "following": null,
+                    "follow_request_sent": null,
+                    "notifications": null
+          },
+          "geo": {
+                    "type": "Point",
+                    "coordinates": [
+                              40.753919,
+                              -73.983725
+                    ]
+          },
+          "coordinates": {
+                    "type": "Point",
+                    "coordinates": [
+                              -73.983725,
+                              40.753919
+                    ]
+          },
+          "place": {
+                    "id": "01a9a39529b27f36",
+                    "url": "https://api.twitter.com/1.1/geo/id/01a9a39529b27f36.json",
+                    "place_type": "city",
+                    "name": "Manhattan",
+                    "full_name": "Manhattan, NY",
+                    "country_code": "US",
+                    "country": "United States",
+                    "bounding_box": {
+                              "type": "Polygon",
+                              "coordinates": [
+                                        [
+                                                  [
+                                                            -74.026675,
+                                                            40.683935
+                                                  ],
+                                                  [
+                                                            -74.026675,
+                                                            40.877483
+                                                  ],
+                                                  [
+                                                            -73.910408,
+                                                            40.877483
+                                                  ],
+                                                  [
+                                                            -73.910408,
+                                                            40.683935
+                                                  ]
+                                        ]
+                              ]
+                    },
+                    "attributes": {}
+          },
+          "contributors": null,
+          "retweet_count": 0,
+          "favorite_count": 0,
+          "entities": {
+                    "hashtags": [
+                              {
+                                        "text": "CosplayNYC",
+                                        "indices": [
+                                                  0,
+                                                  11
+                                        ]
+                              },
+                              {
+                                        "text": "BryantPark",
+                                        "indices": [
+                                                  15,
+                                                  26
+                                        ]
+                              }
+                    ],
+                    "trends": [],
+                    "urls": [
+                              {
+                                        "url": "http://t.co/x74fht8lxx",
+                                        "expanded_url": "http://instagram.com/p/wjz503sx5p/",
+                                        "display_url": "instagram.com/p/wjz503sx5p/",
+                                        "indices": [
+                                                  41,
+                                                  63
+                                        ]
+                              }
+                    ],
+                    "user_mentions": [],
+                    "symbols": []
+          },
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "filter_level": "medium",
+          "lang": "fr",
+          "timestamp_ms": "1418500854870"
+}

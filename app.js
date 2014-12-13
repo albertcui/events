@@ -1,6 +1,7 @@
 var Twit = require('twit'),
     CartoDB = require('cartodb'),
-    config = require('./config.js')
+    config = require('./config.js'),
+    nyc = [-74,40,-73,41]
     //ny_place_id = "27485069891a7938"
 
 var T = new Twit({
@@ -15,10 +16,18 @@ var C = new CartoDB({
 	api_key: 				config.cartodb_api_key 
 })
 
-var nyc = [-74,40,-73,41]
+// C.on('connect', function() {
+//     C.query("INSERT INTO {table}(name) VALUES('test') limit 5", {table: 'tweets'}, function(err, data){
+//         console.log(err)
+//         console.log(data)
+//     })
+// })
+
+// C.connect()
 
 var stream = T.stream('statuses/filter', { locations: nyc })
 
 stream.on('tweet', function (tweet) {
-  
+    console.log(JSON.stringify(tweet, null, 10))
+    process.exit()
 })
