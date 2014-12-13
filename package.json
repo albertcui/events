@@ -1,0 +1,11 @@
+{
+    "name": "events",
+    "description": "show events",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "node-twitter": "*",
+        "cartodb": "*",
+        "express": "*"
+	}
+}
