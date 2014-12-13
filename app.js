@@ -10,6 +10,11 @@ var T = new Twit({
     access_token_secret:  config.twitter_token_secret
 })
 
+var C = new CartoDB({
+	user: 					config.cartodb_user,
+	api_key: 				config.cartodb_api_key 
+})
+
 var nyc = [-74,40,-73,41]
 
 var stream = T.stream('statuses/filter', { locations: nyc })
