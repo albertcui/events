@@ -7,6 +7,7 @@
         "twit": "*",
         "cartodb": "*",
         "express": "*",
-        "jade": "*"
+        "jade": "*",
+        "monk": "*"
     }
 }
