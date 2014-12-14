@@ -1,5 +1,16 @@
 head
-
+ 
+  script(src="../bower_components/webcomponentsjs/webcomponents.js")
+  link(rel="import" href="/bower_components/polymer/polymer.html")
+  link(rel="import", href="bower_components/google-map/google-map.html")
+  style.
+    google-map {
+      display: block;
+      height: 600px;
+    }
 
 body
-  h1 Hello
+  google-map(latitude="40.77", longitude="-73.95", zoom="13", mapType="terrain")
+    each tweet in tweets
+      google-map-marker(latitude= "#{tweet.geo.coordinates[0]}", longitude= "#{tweet.geo.coordinates[1]}")
+        img(src="#{tweet.user.profile_image_url}")
